@@ -2,7 +2,7 @@ GET http://localhost:3000/subscribers
 
 ###
 
-GET http://localhost:3000/subscribers/5e2e4bfe71a19b64bf242247
+GET http://localhost:3000/subscribers/5e2e4be971a19b64bf242246
 
 ###
 
@@ -11,5 +11,22 @@ Content-Type: application/json
 
 {
     "name": "Amazing",
-    "subscribedToChannel": "Ava Channel"
+    "subscribedToChannel": "Ava Channel Number 2"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/5e2e4be971a19b64bf242246
+
+###
+
+
+PATCH http://localhost:3000/subscribers/5e2e4df371a19b64bf242249
+Content-Type: application/json
+
+
+{
+    "name": "Ava",
+    "subscribedToChannel": "New Channel"
+
 }
