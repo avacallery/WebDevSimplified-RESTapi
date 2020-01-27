@@ -21,12 +21,9 @@ DELETE http://localhost:3000/subscribers/5e2e4be971a19b64bf242246
 ###
 
 
-PATCH http://localhost:3000/subscribers/5e2e4df371a19b64bf242249
+PATCH http://localhost:3000/subscribers/5e2e54f953c87a67072c039b
 Content-Type: application/json
 
-
 {
-    "name": "Ava",
-    "subscribedToChannel": "New Channel"
-
+    "name": "Ava Callery"
 }
